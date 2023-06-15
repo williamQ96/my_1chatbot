@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "greeting",
+        "what's up",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hey there!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "age",
+      "patterns": ["how old", "how old are you", "age?", "how old is William"],
+      "responses": ["William is 25 years old", "25 years old"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "what should I call you", "what's your name?", "who are you", "can you tell me your name"],
+      "responses": ["I am Zeus", "You can call me Zeus", " I' am Zeus, the assistant of William"]
+    },
+    {
+      "tag": "shop",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell food and drink",
+        "We have food and drink"
+      ]
+    }
+  ]
+}
